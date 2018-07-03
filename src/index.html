@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Social UI Theme</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse"
+  data-target="#navbarCollapse">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--for the company logo, product or project name-->
+    <a href="#" class="navbar-brand">Social Lab</a>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <!--navbar-nav for a full-height and lightweight navigation (including support for dropdowns).-->
+      <ul class="navbar-nav ml-auto"><!--ml-auto: margin-left auto, which align
+        the element to the right-->
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#explore-head-section">Explore</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#create-head-section">Create</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#share-head-section">Share</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<!-- Home Section-->
+<header id="home-section">
+  <div class="dark-overlay"><!--not bootstrap class-->
+    <div class="home-inner"><!--not bootstrap class-->
+      <div class="container"><!--to bring everything to middle-->
+        <!-- use grid system-->
+        <div class="row">
+          <div class="col-md-8 d-none d-md-block"><!--display by default is none,
+            but for medium size screen show text block-->
+            <h1>Build social profiles and gain revenue and profits</h1>
+            <!--create flex box, using d-flex: display flex, and .flex-row to
+            set a horizontal direction-->
+            <div class="d-flex flex-row">
+              <div class="p-4 align-self-start"><!--padding:4 and change the alignment to cross axis (x and y axis)-->
+                <i class="fa fa-check"></i>
+              </div>
+
+              <div class="p-4 align-self-end">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam.
+              </div>
+            </div>
+
+            <div class="d-flex flex-row">
+              <div class="p-4 align-self-start"><!--padding:4 and change the alignment to cross axis (x and y axis)-->
+                <i class="fa fa-check"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam.
+              </div>
+            </div>
+
+            <div class="d-flex flex-row">
+              <div class="p-4 align-self-start"><!--padding:4 and change the alignment to cross axis (x and y axis)-->
+                <i class="fa fa-check"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam.
+              </div>
+            </div>
+          </div><!--col-md-8 ends-->
+
+          <div class="col-md-4">
+            <!--create the form-->
+            <div class="card bg-primary card-form text-center"><!--card-form: is
+            not a bootstrap class -->
+              <div class="card-body">
+              <h3>Sign Up Today</h3>
+              <p>Please fill out this form to register</p>
+
+            <form>
+              <div class="form-group">
+                <!-- form-control: styles the textual form controls e.g <input>
+                <select> and <textarea>-->
+              <input class="form-control form-control-lg" type="text"
+              name="username" placeholder="Username">
+              </div>
+
+              <div class="form-group">
+              <input class="form-control form-control-lg" type="email"
+              name="email" placeholder="Email">
+              </div>
+
+              <div class="form-group">
+              <input class="form-control form-control-lg" type="password"
+              name="password" placeholder="Password">
+              </div>
+
+              <div class="form-group">
+              <input class="form-control form-control-lg" type="password"
+              name="password2" placeholder="Confirm Password">
+              </div>
+              <input type="submit" value="Submit" class="btn btn-outline-light
+              btn-block">
+            </form>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header><!--home-section ends-->
+
+<!-- Explore Head-->
+<section id="explore-head-section">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <div class="py-5"><!-- add padding vertically-->
+        <h1 class="display-4">Explore</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+         Ea nulla ducimus veniam repellat nostrum, placeat aperiam maiores!
+         Dicta, voluptatum molestiae.</p>
+         <a class="btn btn-outline-secondary" href="#">Find Out More</a>
+       </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Explore Section-->
+
+<section id="explore-section" class="bg-faded text-muted py-5 bg-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img class="img-fluid mb-3 rounded-circle" src="img/explore-section1.jpg"
+        alt="cellphone image"><!--img-fluid: responsive image, will automatically
+          adjust to fit the size of the screen.-->
+      </div>
+
+      <div class="col-md-6">
+        <h3>Explore Learn & Connect</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis
+          aliquam sed cum, sunt, quia dicta? Animi, commodi, neque incidunt non
+          atque aliquid voluptates nostrum, inventore tenetur asperiores a
+          necessitatibus ut.</p>
+
+          <div class="d-flex flex-row">
+            <div class="p-4 align-self-start"><!--padding:4 and change the alignment to cross axis (x and y axis)-->
+              <i class="fa fa-check"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam.
+            </div>
+          </div>
+
+          <div class="d-flex flex-row">
+            <div class="p-4 align-self-start"><!--padding:4 and change the alignment to cross axis (x and y axis)-->
+              <i class="fa fa-check"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam.
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Create Head Section-->
+<section id="create-head-section" class="bg-primary">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <div class="py-5"><!-- add padding vertically-->
+        <h1 class="display-4">Create</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+         Ea nulla ducimus veniam repellat nostrum, placeat aperiam maiores!
+         Dicta, voluptatum molestiae.</p>
+         <a class="btn btn-outline-light" href="#">Find Out More</a>
+       </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Create Section-->
+<section id="create-section" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Create Your Passion</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis
+          aliquam sed cum, sunt, quia dicta? Animi, commodi.</p>
+
+          <div class="d-flex flex-row">
+            <div class="p-4 align-self-start"><!--padding:4 and change the alignment to cross axis (x and y axis)-->
+              <i class="fa fa-check"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam.
+            </div>
+          </div>
+
+          <div class="d-flex flex-row">
+            <div class="p-4 align-self-start"><!--padding:4 and change the alignment to cross axis (x and y axis)-->
+              <i class="fa fa-check"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam.
+            </div>
+          </div>
+      </div>
+
+      <div class="col-md-6">
+        <img class="img-fluid mb-3 rounded-circle" src="img/create-section1.jpg"
+        alt="cellphone image"><!--img-fluid: responsive image, will automatically
+          adjust to fit the size of the screen.-->
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Share Head Section-->
+<section id="share-head-section" class="bg-primary">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <div class="py-5"><!-- add padding vertically-->
+        <h1 class="display-4">Share</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+         Ea nulla ducimus veniam repellat nostrum, placeat aperiam maiores!
+         Dicta, voluptatum molestiae.</p>
+         <a class="btn btn-outline-light" href="#">Find Out More</a>
+       </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Share Section-->
+
+<section id="share-section" class="bg-faded text-muted py-5 bg-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img class="img-fluid mb-3 rounded-circle" src="img/share-section1.jpg"
+        alt="cellphone image"><!--img-fluid: responsive image, will automatically
+          adjust to fit the size of the screen.-->
+      </div>
+
+      <div class="col-md-6">
+        <h3>Share what you create</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis
+          aliquam sed cum, sunt, quia dicta? Animi, commodi, neque incidunt non
+          atque aliquid voluptates nostrum, inventore tenetur asperiores a
+          necessitatibus ut.</p>
+
+          <div class="d-flex flex-row">
+            <div class="p-4 align-self-start"><!--padding:4 and change the alignment to cross axis (x and y axis)-->
+              <i class="fa fa-check"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam.
+            </div>
+          </div>
+
+          <div class="d-flex flex-row">
+            <div class="p-4 align-self-start"><!--padding:4 and change the alignment to cross axis (x and y axis)-->
+              <i class="fa fa-check"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam.
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="main-footer" class="bg-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <div class="py-4">
+          <h1 class="h3">Social Lab</h1>
+          <p>Copyrigth &copy; 2018 </p>
+          <button  class="btn btn-primary" data-toggle="modal"
+          data-target="#contactModal">Contact Us</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Create the Contact Modal-->
+<div class="modal fade" id="contactModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ContactModalLabel">Contact Us</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message"></textarea>
+          </div>
+        </form>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary btn-block"
+        data-dismiss="modal">Submit</button>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/tether.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+
+
+</body>
+</html>
